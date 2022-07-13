@@ -1,0 +1,45 @@
+header {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	background-image: url(../images/head.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.home {
+	width: 400px;
+	height: 100px;
+}
+
+.home a {
+	display: inline-block;
+	text-decoration: none;
+	color: #3C3C3C;
+}
+
+.home a p {
+	margin: 0;
+}
+
+.fir-row {
+	padding: 0;
+	letter-spacing: -0.05em;
+ 	font-size: 72px;
+ 	font-weight: 300;
+ 	line-height: 0.9em;
+}
+
+.fir-row span {
+	color: #5ED6FF;
+	font-weight: 300;
+}
+
+.sec-row {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: -0.02em;
+	padding-left: 6px;
+}

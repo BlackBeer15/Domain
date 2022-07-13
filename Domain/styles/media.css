@@ -1,0 +1,340 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	/*HEADER*/
+	header {
+		height: 60px;
+	}
+
+	.home {
+		width: 200px;
+		height: 50px;
+	}
+
+	.fir-row {
+		font-size: 42px;
+	}
+
+	.sec-row {
+		font-size: 9px;
+	}
+
+	.btn-log {
+		width: 100px;
+		height: 30px;
+	}
+
+	.btn-log a {
+		font-size: 15px;
+	}
+
+	/*NAV*/
+	nav ul {
+		height: 40px;
+	}
+
+	nav ul li a {
+		font-size: 8px;
+		padding-top: 15px;
+	}
+
+	.search {
+		height: 200px;
+	}
+
+	.slider {
+		height: 200px;
+	}
+
+	.start-blue {
+		font-size: 40px;
+		padding-right: 20px;
+	}
+
+	.start-text {
+		font-size: 10px;
+		padding-right: 20px;
+	}
+
+	.inp {
+		width: 170px;
+		height: 20px;
+		margin-right: 20px;
+	}
+
+	.inp input {
+		width: 100px;
+		height: 20px;
+		font-size: 10px;
+	}
+
+	.inp a {
+		width: 50px;
+		padding-top: 3px;
+		font-size: 10px;
+	}
+
+	.start-multi {
+		font-size: 10px;
+		padding-right: 20px;
+	}
+
+	/*MAIN*/
+	.tarif {
+		flex-wrap: wrap;
+	}
+
+	.tarif-blocks {
+		width: 262px;
+		height: 150px;
+		margin-bottom: 10px;
+	}
+
+	.price {
+		height: 80px;
+	}
+
+	.price p:first-child {
+		font-size: 22px;
+	}
+
+	.mth {
+		font-size: 10px;
+	}
+
+	.description p:first-child {
+		font-size: 26px;
+		margin-top: 20px;
+	}
+
+	.desc-rows {
+		font-size: 10px;
+	}
+
+	.types {
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+
+	.types-blocks {
+		width: 100%;
+		height: 350px; 
+		border-bottom: 1px solid #000;
+		border-top: 1px solid #000;
+		margin-bottom: 20px;
+	}
+
+	.types-blocks h2 {
+		font-size: 18px;
+	}
+
+	.types-blocks ul li span {
+		font-size: 16px;
+	}
+
+	.types-text {
+		font-size: 14px;
+	}
+
+	.shortly {
+		margin-top: 50px;
+		font-size: 30px;
+		margin-left: 10px;
+	}
+
+	.short {
+		flex-wrap: wrap;
+	}
+
+	.short-blocks {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.short-blocks h2 {
+		font-size: 16px;
+		margin-left: 10px;
+	}
+
+	.short-blocks p {
+		font-size: 10px;
+		padding: 0 10px;
+	}
+
+	.short-blocks a {
+		width: 75px;
+		font-size: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	/*FOOTER*/
+	.conta div {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+	/*NAV*/
+	nav ul {
+		height: 50px;
+	}
+
+	nav ul li a {
+		font-size: 12px;
+		padding-top: 17px;
+	}
+
+	.search {
+		height: 500px;
+	}
+
+	.slider {
+		height: 500px;
+	}
+
+	.start-blue {
+		font-size: 94px;
+		padding-right: 20px;
+	}
+
+	.start-text {
+		font-size: 18px;
+		padding-right: 20px;
+	}
+
+	.inp {
+		width: 300px;
+		height: 32px;
+		margin-right: 20px;
+	}
+
+	.inp input {
+		width: 180px;
+		height: 30px;
+		font-size: 10px;
+	}
+
+	.inp a {
+		width: 100px;
+		padding-top: 8px;
+		font-size: 14px;
+	}
+
+	.start-multi {
+		font-size: 16px;
+		padding-right: 20px;
+	}
+
+	/*MAIN*/
+	.tarif-blocks {
+		width: 236px;
+		height: 135px;
+		margin-bottom: 10px;
+	}
+
+	.price {
+		height: 75px;
+	}
+
+	.price p:first-child {
+		font-size: 22px;
+	}
+
+	.mth {
+		font-size: 11px;
+	}
+
+	.description p:first-child {
+		font-size: 26px;
+		margin-top: 15px;
+	}
+
+	.desc-rows {
+		font-size: 10px;
+	}
+
+	.types {
+		margin-top: 20px;
+	}
+
+	.types-blocks {
+		width: 100%;
+		height: 350px; 
+		margin-bottom: 20px;
+	}
+
+	.types-blocks h2 {
+		font-size: 18px;
+	}
+
+	.types-blocks ul li span {
+		font-size: 14px;
+	}
+
+	.types-text {
+		font-size: 10px;
+	}
+
+	.shortly {
+		margin-top: 50px;
+		font-size: 30px;
+		margin-left: 10px;
+	}
+
+	.short {
+		flex-wrap: wrap;
+	}
+
+	.short-blocks {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.short-blocks h2 {
+		font-size: 18px;
+		margin-left: 10px;
+	}
+
+	.short-blocks p {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+
+	.short-blocks a {
+		width: 100px;
+		font-size: 12px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+	/*NAV*/
+	.start-text {
+		font-size: 28px;
+	}
+
+	/*MAIN*/
+	.tarif-blocks {
+		width: 420px;
+		height: 240px;
+	}
+
+	.price {
+		height: 130px;
+	}
+
+	.price p:first-child {
+		font-size: 40px;
+		margin-top: 35px;
+	}
+
+	.description p:first-child {
+		margin-top: 30px;
+	}
+
+	.short-blocks p {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+}

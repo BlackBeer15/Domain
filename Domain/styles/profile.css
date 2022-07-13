@@ -1,0 +1,28 @@
+.btn-log {
+	display: none;
+}
+
+main {
+	width: 100%;
+	height: 85vh;
+	background-image: url('../images/mainreg.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.user {
+	width: 100%;
+	height: 500px;
+	padding: 20px 20px;
+}
+
+.logout {
+	display: block;
+	width: 55px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #5ED6FF;
+	border: 1px solid #5ED6FF; 
+	padding: 5px;
+	margin-top: 30px;
+}

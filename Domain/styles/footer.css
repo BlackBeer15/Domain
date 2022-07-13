@@ -1,0 +1,46 @@
+footer {
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(0deg, rgba(11,16,28,1) 0%, rgba(57,73,112,1) 100%);
+}
+
+.foot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.foot p {
+	text-transform: uppercase;
+	color: #AAAAAA;
+	margin-left: 20px;
+}
+
+.conta {
+	display: flex;
+	justify-content: space-around;
+	width: 150px;
+	height: 50px;
+	margin-right: 20px;
+	align-items: center;
+}
+
+.conta div {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: #8E8E8E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conta div:first-child {
+	background-color: #5ED6FF;
+}
+
+.conta div a {
+	color: #fff;
+}

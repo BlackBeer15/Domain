@@ -1,0 +1,44 @@
+.prof {
+	display: none;
+}
+
+.btn-log {
+	margin: 6px 6px;
+	width: 150px;
+	height: 40px;
+	display: flex;
+}
+
+.lock {
+	width: 30%;
+	display: flex;
+	background-color: #5ED6FF;
+	text-align: center;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+#unlock {
+	display: none;
+}
+
+.btn-log input {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 70%;
+	height: 100%;
+	position: relative;
+	display: flex;
+ 	background: linear-gradient(0deg, rgba(0,0,0,0.9304096638655462) 0%, rgba(57,71,107,1) 60%);
+ 	text-transform: uppercase;
+ 	color: white; 
+ 	font-size: 20px;
+ 	font-weight: 300;
+ 	transition: 1s;
+}
+
+.btn-log input:hover {
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(47,57,82,1) 60%);
+}

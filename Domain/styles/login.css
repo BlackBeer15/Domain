@@ -1,0 +1,87 @@
+.btn-log {
+	display: none;
+}
+
+.prof {
+	display: none;
+}
+
+main {
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../images/mainreg.png');
+	background-position: center;
+	background-size: cover;
+}
+
+form {
+	width: 500px;
+	height: 450px;
+	text-align: center;
+}
+
+.fa-key {
+	color: #A5C9D6;
+}
+
+.login-user {
+	width: 300px;
+	margin-top: 20px;
+	border: 1px solid #000;
+	border-radius: 2px;
+	outline: none;
+	height: 40px;
+	background: url(../images/login-user.png) 5px center;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+}
+
+.pass-user {
+	width: 300px;
+	margin-top: 20px;
+	border: 1px solid #000;
+	border-radius: 2px;
+	outline: none;
+	height: 40px;
+	background: url(../images/pass-user.png) 5px center;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+}
+
+.login-btn {
+	border: none;
+	border-radius: 2px;
+	outline: none;
+	width: 338px;
+	background-color: #5ED6FF;
+	height: 40px;
+	font-weight: 500;
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.login-btn:hover {
+	background-color: #00BEFF;
+}
+
+form span {
+	color: #5ED6FF;
+	cursor: pointer;
+}
+
+form p {
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+form a {
+	color: #5ED6FF;
+	text-decoration: none;
+}

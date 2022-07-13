@@ -1,0 +1,67 @@
+.prof {
+	display: none;
+}
+
+main {
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../images/mainreg.png');
+	background-position: center;
+	background-size: cover;
+}
+
+form {
+	width: 500px;
+	height: 700px;
+	text-align: center;
+}
+
+.fa-user-plus {
+	color: #A5C9D6;
+}
+
+.for-reg input {
+	width: 300px;
+	margin-top: 20px;
+	border: 1px solid #000;
+	border-radius: 2px;
+	outline: none;
+	height: 40px;
+	text-align: center;
+}
+
+.passw {
+	margin-left: 27px;
+}
+
+.fa-eye {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#closeEye {
+	display: none;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.for-reg .reg-btn {
+	border: none;
+	border-radius: 2px;
+	width: 304px;
+	height: 40px;
+	outline: none;
+	background-color: #5ED6FF;
+	font-weight: 500;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.for-reg .reg-btn:hover {
+	background-color: #00BEFF;
+}
